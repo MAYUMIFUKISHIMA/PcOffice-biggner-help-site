@@ -7,7 +7,7 @@ description: "Generate cohesive, project-specific SVG icon sets for websites and
 
 Generate custom, visually consistent SVG icon sets tailored to specific projects. Each set is built from a shared style specification so every icon looks like it belongs with the others — same stroke weight, same corner treatment, same visual density.
 
-## 松下さんのWikiでの使い方
+## 松下さんWikipediaでの使い方
 
 カードの操作名から、鉛筆、クリップボード、書類など身近な道具を選ぶ。丸みのある線と既存のカード配色を使い、小さな表示でも形の違いで見分けられるようにする。SVGはローカルに保存し、外部参照は使わない。操作名と並ぶ装飾画像には空のaltを付ける。
 

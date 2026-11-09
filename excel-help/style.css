@@ -27,7 +27,7 @@ h2{font-size:24px;margin-bottom:15px}
 .layout{--tile:#e1edff;--accent:#22477d}
 .file{--tile:#ffedc9;--accent:#67400b}
 .calc{--tile:#eee5fa;--accent:#50336d}
-.glyph{align-self:flex-start;margin-bottom:auto;padding:2px 11px;border-radius:10px;background:var(--accent);color:white;font:bold 23px/1.55 "Segoe UI",sans-serif}
+.operation-icon{align-self:flex-start;margin-bottom:auto;width:54px;height:54px;padding:6px;border-radius:14px;background:#ffffffb8}
 .card strong{font-size:clamp(18px,1.6vw,21px);line-height:1.45}
 .card small{color:#37464a;font-size:16px;line-height:1.55}
 a.card:after{content:"";position:absolute;right:24px;top:28px;width:9px;height:9px;border:solid var(--accent);border-width:2px 2px 0 0;transform:rotate(45deg)}

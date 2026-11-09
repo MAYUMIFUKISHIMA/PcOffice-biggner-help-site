@@ -1,0 +1,29 @@
+{
+  "name": "松下さんWikipedia",
+  "preset": "soft",
+  "grid": 24,
+  "strokeWidth": 1.8,
+  "strokeLinecap": "round",
+  "strokeLinejoin": "round",
+  "iconCount": 18,
+  "icons": [
+    "write",
+    "line-break",
+    "copy",
+    "paste",
+    "paste-error",
+    "merged-cell",
+    "wrap-text",
+    "resize",
+    "undo",
+    "format-brush",
+    "save-copy",
+    "find-file",
+    "print",
+    "pdf-file",
+    "sum",
+    "average",
+    "count-items",
+    "calculator"
+  ]
+}
