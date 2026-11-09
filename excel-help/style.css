@@ -9,7 +9,7 @@ header{background:var(--mint);border-top:7px solid var(--green);border-bottom:1p
 h1,h2,h3,p,figure{margin:0}
 h1,h2{line-height:1.45}
 h1{font-family:"Yu Mincho",serif;font-size:clamp(34px,5vw,58px);letter-spacing:.02em}
-.hero p{margin-top:8px;color:var(--muted)}
+.hero p{margin-top:8px;color:var(--muted);max-width:70%}.hero p strong{color:var(--ink)}@media(max-width:680px){.hero p{max-width:100%}}
 .book{position:absolute;z-index:-1;right:6%;top:23%;width:143px;height:128px;border:1px solid #9ab3a5;border-left:15px solid var(--green);border-radius:3px 10px 10px 3px;transform:rotate(-9deg);background:repeating-linear-gradient(0deg,transparent 0 15px,#d0dfd4 15px 16px),repeating-linear-gradient(90deg,#fafcf7 0 23px,#d0dfd4 23px 24px);box-shadow:4px 5px 0 #cddbd0}
 .book:after{content:"";position:absolute;right:17px;top:-1px;width:12px;height:71px;background:var(--gold);clip-path:polygon(0 0,100% 0,100% 100%,50% 88%,0 100%)}
 nav.group-nav{display:flex;flex-wrap:wrap;gap:8px 24px;padding:18px 0;border-bottom:1px solid var(--line)}
