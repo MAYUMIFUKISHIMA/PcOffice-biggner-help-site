@@ -49,3 +49,13 @@ figcaption{font-size:15px;margin-top:8px}
 @media(max-width:680px){.grid,.business{grid-template-columns:1fr}.hero{padding:35px 0}.book{display:none}section{margin:28px 0}.article li{padding-left:45px}.group-nav a{font-size:15px}}
 
 
+
+.first-task{margin:24px 0 8px;padding:20px 24px;background:#e1f2e9;border:1px solid #84a898;border-left:6px solid var(--green);border-radius:16px}
+.first-task h2{margin:0 0 5px}
+.first-task h2 a{display:block}
+.choices{display:flex;flex-wrap:wrap;gap:10px;margin:16px 0}
+.choices a,.exercise{display:inline-block;padding:8px 15px;border:1px solid var(--green);border-radius:12px;background:var(--mint);font-weight:600}
+.undo-link{font-size:15px;margin:8px 0}
+.formula{display:block;font-size:15px;margin-top:8px}
+.formula input{display:block;max-width:100%;padding:8px;font:18px Consolas,monospace;color:var(--ink);border:1px solid var(--green);border-radius:6px}
+.article section[id]{scroll-margin-top:16px}

@@ -10,27 +10,45 @@
 <main class="article" id="common-06">
 <nav><a href="../index.html#common">‹ 索引に戻る</a></nav>
 <h1>結合セルに文章を入力したい</h1>
-<figure><img src="../images/empty.png" alt="入力前。赤枠はB列とC列を合わせた決定事項の欄です。"><figcaption>入力前。赤枠はB列とC列を合わせた決定事項の欄です。</figcaption></figure>
-<figure><img src="../images/filled.png" alt="入力後。赤枠の欄に「金曜日に訪問する」が入り、周囲の罫線も残っています。"><figcaption>入力後。赤枠の欄に「金曜日に訪問する」が入り、周囲の罫線も残っています。</figcaption></figure>
-<p>複数のマスを一つにまとめた欄が「結合セル」です。図の決定事項欄はB列とC列にまたがっています。セル全体のコピーは範囲や書式も扱うため、転記先と結合の形が違うと貼れないことがあります。</p>
-<section><h2>操作手順</h2>
+<nav class="choices" aria-label="手順を選ぶ"><a href="#prepare">① 作業用ファイル</a> <a href="#source">② コピー元</a> <a href="#destination">③ 貼り付け先</a></nav>
+<section id="prepare">
+<h2>① 作業用ファイルを作る</h2>
+<figure><img src="../images/save.png" alt="転記先の議事録に、元と違う名前を付けます。"><figcaption>転記先の議事録に、元と違う名前を付けます。</figcaption></figure>
+<p class="undo-link"><a href="common-09.html">間違えたときは、操作を元に戻す</a></p>
 <ol>
-  <li>転記先の議事録を開きます。ひな形を開いた場合は F12 を押し、別のファイル名を入力して［保存］を選びます。画面上部の名前が作業用のものか確認します。</li>
-  <li>別の議事録でコピー元の文章が入った欄を1回クリックします。欄の周囲に緑の枠が付きます。</li><li>F2 を押します。文字の中に縦線が現れます。</li>
-  <li>必要な文字だけを先頭から末尾までドラッグします。欄全体ではなく、文字の背景が変わったことを確認します。<figure><figcaption>写真は未取得です。撮影予定：F2を押した後、コピー元の文字だけを選択した状態。</figcaption></figure></li>
-  <li>Ctrl を押したまま C を押します。選んだ文字がコピーされます。画面の見た目はほとんど変わりません。</li><li>Esc を押します。文字の編集が終わり、元の文章が残ります。</li>
-  <li>転記先の結合セルを1回クリックします。緑の枠が横長の欄を囲みます。</li>
-  <li>F2 を押します。文字を編集する状態になります。既存の文章に追記する場合は、入れたい位置をクリックします。</li>
-  <li>Ctrl＋V を押します。文字が縦線の位置に入ります。この時点で内容が違えば Esc で今回の編集を取り消せます。</li>
-  <li>Enter を押して確定します。</li>
+  <li>転記先のひな形を開き、F12 を押します。</li>
+  <li>新しい名前を入力して［保存］をクリックします。画面上部の名前を控えます。あとでこのファイルに戻ります。</li>
 </ol>
 </section>
-<section class="check"><h2>できたか確認</h2><p>転記した文字を読み返し、結合欄の幅と周囲の罫線が貼り付け前と同じか見比べてください。</p></section>
-<section class="note"><h2>注意点</h2><p>F2 が効かないときは欄をダブルクリックします。編集できない場合は保護や読み取り専用の表示を確認します。結合解除や保護解除はせず、新規ブックの空欄で文字だけ貼れるか試し、エラー文を担当者へ伝えます。</p></section>
-<section class="related"><h2>関連する操作</h2><a href="common-05.html">貼り付けできない・エラーが出る</a>
+<section id="source">
+<h2>② コピー元で文字を選ぶ</h2>
+<figure><img src="../images/cell-selected.png" alt="欄を1回クリックした状態。枠が欄全体を囲んでいます。"><figcaption>欄を1回クリックした状態。枠が欄全体を囲んでいます。</figcaption></figure>
+<figure><img src="../images/text-selected.png" alt="コピーできる状態。「金曜日に訪問する」の文字だけに選択色が付いています。"><figcaption>コピーできる状態。「金曜日に訪問する」の文字だけに選択色が付いています。</figcaption></figure>
+<ol>
+  <li>文章が書いてある元の議事録を開き、コピーしたい欄をクリックします。</li>
+  <li>F2 を押して文字を編集する状態にします。上の数式バーで必要な文字を先頭から末尾までドラッグします。</li>
+  <li>文字だけに色が付いたら Ctrl＋C を押します。Esc を押してコピー元の編集を終えます。</li>
+</ol>
+</section>
+<section id="destination">
+<h2>③ 貼り付け先に入れる</h2>
+<figure><img src="../images/empty.png" alt="手順①で保存した議事録の「決定事項」欄を選びます。"><figcaption>手順①で保存した議事録の「決定事項」欄を選びます。</figcaption></figure>
+<ol>
+  <li>手順①で控えた名前のファイルに戻ります。</li>
+  <li>転記先の欄をクリックして F2 を押します。縦線が出た位置に文字が入ります。</li>
+  <li>Ctrl＋V を押します。文章が合っていれば Enter で確定します。確定前に取り消すには Esc を押します。</li>
+</ol>
+</section>
+<section class="check">
+<h2>できたか確認</h2>
+<p>転記した文章が読めて、欄の幅と罫線が元のままなら完了です。</p></section>
+<section class="note">
+<h2>欄全体をコピーすると止まる理由</h2>
+<p>複数のマスを一つにまとめた欄を「結合セル」と呼びます。セル全体をコピーすると、元と先の範囲の形が合わず貼れない場合があります。編集できない場合は結合を解除せず、<a href="common-05.html">表示されたエラーから確認</a>してください。</p></section>
+<section class="related">
+<h2>関連する操作</h2><a href="common-05.html">貼り付けできない・エラーが出る</a>
 <a href="common-11.html">議事録を別名で保存したい</a></section>
 <a href="../index.html#common">‹ 索引に戻る</a>
 </main>
 </body>
 </html>
-

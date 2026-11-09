@@ -13,17 +13,25 @@
 <figure><img src="../images/COUNT.png" alt="上部の数式バーに =COUNT(B6:B7)、下の赤枠に計算結果が表示されています。"><figcaption>上部の数式バーに =COUNT(B6:B7)、下の赤枠に計算結果が表示されています。</figcaption></figure>
 <figure><img src="../images/COUNTA.png" alt="上部の数式バーに =COUNTA(B6:B7)、下の赤枠に計算結果が表示されています。"><figcaption>上部の数式バーに =COUNTA(B6:B7)、下の赤枠に計算結果が表示されています。</figcaption></figure>
 <p>件数を調べるときは、数字だけか、文字も含むかで式を選びます。</p>
-<section><h2>操作手順</h2>
+<section>
+<h2>操作手順</h2>
+<p class="undo-link"><a href="common-09.html">間違えたときは、操作を元に戻す</a></p>
 <ol>
+<li>空のブックを開きます。B6（B列の6行目）に「2」を入力して Enter、すぐ下のB7に「未定」を入力して Enter を押します。</li>
   <li>答えを出す空欄をクリックします。例ではB8（B列の8行目）です。</li>
   <li>数字の欄だけ数えるときは半角で =COUNT(B6:B7) と入力します。B6からB7までが対象です。</li>
-  <li>Enter を押します。2と4が入っている例では、数字が2個あるので答えは2です。</li>
+  <li>Enter を押します。「2」と「未定」のうち数字は一つなので、答えは1です。</li>
   <li>文字も含む記入済みの欄を数える場合は、空欄に =COUNTA(B6:B7) と入力して Enter を押します。</li>
 </ol>
 </section>
-<section class="check"><h2>できたか確認</h2><p>B7の4を文字「未定」にした場合、COUNTは1、COUNTAは2になります。</p></section>
-<section class="note"><h2>注意点</h2><p>COUNTAは空白文字や、何も表示しない式を含む欄も数えます。</p></section>
-<section class="related"><h2>関連する操作</h2><a href="common-15.html">数字を合計したい</a>
+<section class="check">
+<h2>できたか確認</h2>
+<p>数字を数えた答えは1、文字も含む記入済みの欄を数えた答えは2です。</p></section>
+<section class="note">
+<h2>注意点</h2>
+<p>COUNTAは空白文字や、何も表示しない式を含む欄も数えます。</p></section>
+<section class="related">
+<h2>関連する操作</h2><a href="common-15.html">数字を合計したい</a>
 <a href="common-16.html">平均を計算したい</a></section>
 <a href="../index.html#common">‹ 索引に戻る</a>
 </main>

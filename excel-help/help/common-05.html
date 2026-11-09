@@ -10,21 +10,30 @@
 <main class="article" id="common-05">
 <nav><a href="../index.html#common">‹ 索引に戻る</a></nav>
 <h1>貼り付けできない・エラーが出る</h1>
-<figure><img src="../images/empty.png" alt="入力前。赤枠はB列とC列を合わせた決定事項の欄です。"><figcaption>入力前。赤枠はB列とC列を合わせた決定事項の欄です。</figcaption></figure>
-<figure><img src="../images/filled.png" alt="入力後。赤枠の欄に「金曜日に訪問する」が入り、周囲の罫線も残っています。"><figcaption>入力後。赤枠の欄に「金曜日に訪問する」が入り、周囲の罫線も残っています。</figcaption></figure>
-<p>コピーする範囲の形、結合された欄、入力の保護などで貼り付けが止まることがあります。</p>
-<section><h2>操作手順</h2>
-<ol>
-  <li>エラー文を控えて［OK］を押します。表に戻ったことを確認します。</li>
-  <li>Esc を押してコピーや編集中の状態を解除します。</li>
-  <li>コピー元の文字をダブルクリックで編集し、必要な文字だけドラッグして Ctrl＋C を押します。</li>
-  <li>Esc で編集を終え、入力を許された転記先をダブルクリックします。縦線が出たら Ctrl＋V を押します。</li>
-  <li>正しい文字が入ったら Enter で確定します。</li>
-</ol>
+<nav class="choices" aria-label="手順を選ぶ"><a href="#protected">「保護」と表示された</a> <a href="#range">「貼り付ける範囲」「結合セル」と表示された</a> <a href="#unknown">どれか分からない</a></nav>
+<section id="protected">
+<h2>「保護」と表示された</h2>
+<p>ここで作業を止めます。担当者にファイル名、入力しようとした欄、表示された文を伝え、入力してよい欄を確認してください。</p>
 </section>
-<section class="check"><h2>できたか確認</h2><p>目的の欄だけに文字が入り、周囲の枠が残りましたか。</p></section>
-<section class="note"><h2>注意点</h2><p>保護のメッセージが出たら中止します。別の新規ブックの空欄で短い文字を貼れるか確認し、元ファイル名・欄・エラー文を担当者へ伝えてください。</p></section>
-<section class="related"><h2>関連する操作</h2><a href="common-06.html">結合セルに文章を入力したい</a>
+<section id="range">
+<h2>範囲や結合セルについて表示された</h2>
+<figure><img src="../images/empty.png" alt="入力前。赤枠はB列とC列を合わせた決定事項の欄です。"><figcaption>入力前。赤枠はB列とC列を合わせた決定事項の欄です。</figcaption></figure>
+<p class="undo-link"><a href="common-09.html">間違えたときは、操作を元に戻す</a></p>
+<ol>
+  <li>表示された文を控え、［OK］を押します。Esc を押してコピーを終了します。</li>
+  <li>コピー元の欄をクリックします。上部の数式バーで必要な文字だけをドラッグし、Ctrl＋C を押します。</li>
+  <li>Esc を押してから、転記先の欄をダブルクリックします。縦線が出たら Ctrl＋V を押し、文字を確認して Enter で確定します。</li>
+</ol>
+<section class="check">
+<h2>できたか確認</h2>
+<p>周囲の枠が残り、目的の欄に文章が入れば完了です。</p></section>
+</section>
+<section id="unknown">
+<h2>どれか分からない・再び止まった</h2>
+<p>ファイル名、欄の位置、表示された文をそのまま担当者に伝えます。確認が済むまで、結合や保護は解除しません。</p>
+</section>
+<section class="related">
+<h2>関連する操作</h2><a href="common-06.html">結合セルに文章を入力したい</a>
 <a href="common-09.html">操作を間違えた・元に戻したい</a></section>
 <a href="../index.html#common">‹ 索引に戻る</a>
 </main>
